@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_List</title>
+    <link rel="stylesheet" href="ToDo.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main_container">
+            <div class="search_container">
+                <button class="button" id="add">Add task</button>
+                <input type="text" id="add-input" value="new Task">
+                <select id="Tasks_value">
+                    <option>All</option>
+                    <option>Completed</option>
+                    <option>Incomplete</option>
+                </select>
+            </div>
+            <div class="task_container">
+                <div class="task" id="first"> 
+                    <div class="task-check"><input type="checkbox" class="check-complite"> <span id="text">Buy milk</span> </div>
+                    <div class="button-container"><button class="delete button" id="task-btn">X</button> <button class="rewrite button" id="task-btn">/</button></div>
+                </div>
+                <div class="task" id="last"> 
+                    <div class="task-check"><input type="checkbox" class="check-complite"> <span id="text">Close the door</span> </div>
+                    <div class="button-container"><button class="delete button" id="task-btn">X</button> <button class="rewrite button" id="task-btn">/</button></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="ToDo.js"></script>
+</body>
+</html>
